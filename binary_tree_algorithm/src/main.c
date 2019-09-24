@@ -13,6 +13,13 @@ int main(int argc, char* argv[]){
 	if(argv[1] != NULL){
 		if(argv[1][0] != '.' && argv[1][0] != '-'){
 			ascii_to_morse(argv[1] , encoder_string);
+			destroy_tree(tree);
+			return 0;
+		}else{
+			char morse_msg[20];
+			strcpy(morse_msg,argv[1]);
+			morse_to_ascii(morse_msg, tree);
+			destroy_tree(tree);
 			return 0;
 		}
 

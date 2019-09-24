@@ -8,7 +8,7 @@ BIN_DIR = bin/
 INCLUDES = -I include/
 
 #Necessary flags
-CFLAGS = -std=c99 -Wall -g -DDEBUG
+CFLAGS = -std=c99 -Wall -g 
 
 
 #All the sources files 
