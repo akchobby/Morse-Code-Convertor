@@ -7,7 +7,7 @@ Simple clone the repository to your local machine.
 ## Usage
 
 ### Basic Array algorithm
-Run the below commnd once in directory:
+Run the below command once in directory:
 ```bash
 ./bin/convert 
 ```
