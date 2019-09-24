@@ -21,7 +21,7 @@ void morse_to_ascii(char *msg, node_t *tree){
 			}else if((*msg) == '.'){
 				temp = temp->left;
 			}else if((*msg) != ' '){
-				printf("\nERROR: Check Morse Code\n");
+				printf("\nERROR: Check Morse Code, don't forget SPACE at the end of input \n");
 				fail = 1;
 			}
 			msg++;

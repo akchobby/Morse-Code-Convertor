@@ -8,7 +8,7 @@ int main(void){
 			        {'H',' ','V',' ','F',' ','*',' ','L',' ','*',' ','P',' ','J',' ','B',' ','X',' ','C',' ','Y',' ','Z',' ','Q',' ','*',' ',' '}};
 	char encoder_string[] = "**ETIANMSURWDKGOHVF?L?PJBXCYZQ? ";
 	char morse_msg[] = "--. --- --- -.. ---- .--- --- -... ---- --. ..- -.-- ... ";
-	char ascii_msg[] = "GOOD JOB GUYS";
+	char ascii_msg[] = "THANK YOU MR LOCHIN";
 	morse_to_ascii(morse_msg, asciiMat);
 	ascii_to_morse(ascii_msg, encoder_string);
   	return 0;

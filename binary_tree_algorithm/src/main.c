@@ -16,9 +16,7 @@ int main(int argc, char* argv[]){
 			destroy_tree(tree);
 			return 0;
 		}else{
-			char morse_msg[20];
-			strcpy(morse_msg,argv[1]);
-			morse_to_ascii(morse_msg, tree);
+			morse_to_ascii(argv[1], tree);
 			destroy_tree(tree);
 			return 0;
 		}
