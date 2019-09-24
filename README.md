@@ -5,7 +5,16 @@ This is a simple repository that contains various ways of encoding to morse and 
 Simple clone the repository to your local machine.
 
 ## Usage
-Follow the command below once you are in the directory of an algorithm.
+
+### Basic Array algorithm
+Run the below commnd once in directory:
+```bash
+./bin/convert 
+```
+This code outputs a decoded morse message and encoded ASCII msg hard coded in main.c
+
+### Binary Tree algorithm
+Run the command below, this executable accepts parameters as shown:
 ```bash
 ./bin/convert "<Your ASCII(in CAPS) msg or Morse Code>"
 ```
