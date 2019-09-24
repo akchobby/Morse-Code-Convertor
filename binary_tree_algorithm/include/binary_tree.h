@@ -6,14 +6,13 @@
 
 typedef struct node {
 	char alpha;
-	int val;
 	struct node *left;
 	struct node *right;
 
 }node_t;
 
 
-node_t* new_node(char chr,int data); 
+node_t* new_node(char chr); 
 node_t* insert(char arr[], node_t* root, int i, int n) ;
 void destroy_tree(node_t *tree);
 
