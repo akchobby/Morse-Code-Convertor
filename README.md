@@ -1,5 +1,5 @@
 # Morse-Code-Convertor
-This is a simple repository that contains various ways of encoding to morse and decoding morse in C. The algorithms implemented are a Binary tree traverse and a 2-D array traverse to decode. For encoding only a flat array search method has been used. In spirit, the key idea to encode has been inspired from an answer in [stack exchange](https://stackoverflow.com/a/28046691).
+This is a simple repository that contains various ways of encoding to morse and decoding morse in C. The algorithms implemented are a Binary tree traverse and a 2-D array traverse to decode. In spirit, the key idea to encode has been inspired from an answer in [stack exchange](https://stackoverflow.com/a/28046691).
 
 ## Installation
 Simple clone the repository to your local machine.
