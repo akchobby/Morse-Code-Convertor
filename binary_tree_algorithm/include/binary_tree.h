@@ -19,7 +19,7 @@ void search(node_t* root,char chr, _Bool *found,int *i) ;
 void destroy_tree(node_t *tree);
 
 void morse_to_ascii(char *msg, node_t* tree);
-void ascii_to_morse(char *msg, char *encoder, node_t* root);
+void ascii_to_morse(char *msg, node_t* root);
 
 
 

@@ -1,4 +1,3 @@
-#include "common.h"
 #include "binary_tree.h"
 
 void print_msg(char *msg){
@@ -16,7 +15,7 @@ void print_msg(char *msg){
 }
 
 
-void ascii_to_morse(char *msg, char *encoder, node_t* root){
+void ascii_to_morse(char *msg, node_t* root){
 	
 	printf("Encoded Message: ");
 	while((*msg) != '\0'){

@@ -1,6 +1,5 @@
 #include <string.h>
 
-#include "common.h"
 #include "binary_tree.h"
 
 int main(int argc, char* argv[]){
@@ -12,7 +11,7 @@ int main(int argc, char* argv[]){
 
 	if(argv[1] != NULL){
 		if(argv[1][0] != '.' && argv[1][0] != '-'){
-			ascii_to_morse(argv[1] , encoder_string, tree);
+			ascii_to_morse(argv[1] , tree);
 			destroy_tree(tree);
 			return 0;
 		}else{

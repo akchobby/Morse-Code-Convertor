@@ -1,4 +1,3 @@
-#include "common.h"
 #include "binary_tree.h"
 
 void morse_to_ascii(char *msg, node_t *tree){
@@ -10,7 +9,6 @@ void morse_to_ascii(char *msg, node_t *tree){
 			if((temp->right) == NULL || (temp->left) == NULL){
 			#ifdef DEBUG
 				printf("\nERROR:Check msg inputs or Tree may have errors\n");
-		
 			#endif
 				printf("\nERROR: Please don't forget SPACE at the end of input!\n");
 				fail = 1;
