@@ -1,4 +1,5 @@
 #include "common.h"
+#include "binary_tree.h"
 
 void print_msg(char *msg){
 	int string_end=0;
@@ -15,19 +16,14 @@ void print_msg(char *msg){
 }
 
 
-void ascii_to_morse(char *msg, char *encoder){
+void ascii_to_morse(char *msg, char *encoder, node_t* root){
+	
 	printf("Encoded Message: ");
 	while((*msg) != '\0'){
-		int i,j=0;	
+		int i =0 ,j=0;	
 		char morse_set[5] = {};
 		_Bool found =0;
-		for(i=0;i<32;i++){
-			if((*(encoder+i)) == (*msg)){
-				found = 1;
-				break;					
-			}
-		
-		}
+		search(root,*msg,&found,&i);
 		if(!found){printf("\nERROR:Check msg, input ONLY CAPITAL letters\n");break;}
 		while (i != 1){
 			if(i%2 == 0){
