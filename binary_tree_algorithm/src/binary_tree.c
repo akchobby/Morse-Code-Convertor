@@ -1,4 +1,3 @@
-#include "common.h"
 #include "binary_tree.h"
 
 node_t* new_node(char chr,int i) 
