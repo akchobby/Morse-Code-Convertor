@@ -18,7 +18,20 @@ Run the command below, this executable accepts parameters as shown:
 ```bash
 ./bin/convert "<Your ASCII(in CAPS) msg or Morse Code>"
 ```
-Note : While passing Morse code as a parameter put a space at the end of the code. A reminder to pass the parameter in quotes.
+Note : While passing Morse code as a parameter use space as a seperator also put a space at the end of the code. A reminder to pass the parameter in quotes.
+
+#### Examples
+
+For ASCII
+```bash
+./bin/convert "SHE SELLS SEA SHELLS"
+```
+For Morse
+```bash
+./bin/convert "... --- ... "
+```
+
+
 
 By default (No parameters passed) the binary outputs the decoded morse code below:
 ```
