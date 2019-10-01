@@ -22,7 +22,7 @@ node_t* insert(char arr[], node_t* root, int i, int n)
     return root; 
 } 
 
-void search(node_t* root,char chr, _Bool *found,int *i) 
+void search(node_t* root,char chr, _Bool *found,int *i)  //Not a true binary search, just DFS hence O(V+E)
 {  
     if (root != NULL && !(*found)) 
     { 
